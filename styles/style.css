@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(119deg, #DFEAF4 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.w-1013{
+    border-radius: 16px;
+    background: #FFF;
+    width: 1013px;
+    margin: 73px auto;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+/*-------------------users----------------------*/
+
+header{
+    width: 100%;
+}
+
+.users{
+    color: #151B32;
+    font-family: "Merriweather", system-ui;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding: 24px;
+    display: inline-block;
+}
+
+.user-section{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.user-div{
+    width: 398px;
+    padding: 24px;
+    display: flex;
+    gap: 16px;
+}
+
+.user-div:hover{
+    border-radius: 16px;
+    border: 1px solid #BFC8E5;
+    background: #FBFCFF;
+    box-shadow: 0px 8px 23px 0px rgba(218, 224, 249, 0.70);
+}
+
+.user-div:hover .user-img {
+    border: 2px solid #E6EFFA;
+}
+
+.user-img{
+    width: 97px;
+    height: 97px;
+    border-radius: 97px;
+}
+
+
+
+.user-name{
+    color: #151B32;
+    font-family: "Merriweather", system-ui;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.user-id{
+    color: #151B32;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 7px;
+}
+
+.user-a{
+    color: #516FD4;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid #BFC8E5;
+    background: #FFF;
+    width: 65px;
+    margin-top: 16px;
+    display: flex;
+    padding: 2px 8px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.user-a:hover{
+    color: #FFF;
+    background: #516FD4;
+    transition: 0.2s;
+}
+
+
+/*-------------------user-details----------------------*/
+
+.w-633{
+    border-radius: 16px;
+    background: #FFF;
+    width: 633px;
+    margin: 73px auto;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.user-details-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.user-details-img{
+    border-radius: 114px;
+    border: 11px solid #E6EFFA;
+    width: 114px;
+    height: 114px;
+}
+
+.user-details-div{
+    width: 395px;
+}
+
+.user-details-name{
+    color: #151B32;
+    font-family: "Merriweather", system-ui;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 24px;
+}
+
+.user-details-username{
+    color: #151B32;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 8px;
+}
+
+.user-details-inner-div{
+    margin-top: 6px;
+}
+
+.user-details-h3{
+    color: #151B32;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 28px;
+}
+
+.user-details-ul, .post-details-ul{
+    list-style-type: none;
+}
+
+.user-details-key{
+    color: #151B32;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.user-details-item{
+    color: #1C2B62;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.user-details-inner-ul{
+    padding-left: 16px;
+}
+
+.posts-button{
+    margin-top: 28px;
+    width: 90vw;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: 2px solid #C4CADF;
+    background: #FFF;
+    color: #1C2B62;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.posts-button:hover{
+    background: #C4CADF;
+    color: #FFF;
+}
+
+.post-container{
+    width: 1013px;
+    margin: -28px auto 28px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.post-div{
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 8px 23px 0px rgba(255, 165, 30, 1);
+    padding: 22px;
+    display: flex;
+    width: 178px;
+}
+
+.post-div:hover{
+    border-radius: 15px;
+    background: linear-gradient(247deg, #FF5C00 0%, #FF9950 103.74%);
+    transition: 0.2s;
+}
+
+.post-div:hover .post-element, .post-div:hover .post-p{
+    color: #FFF;
+}
+
+.post-element{
+    color: #111B3D;
+    font-family: Merriweather, system-ui;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.post-p{
+    color: #000;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 24px;
+}
+
+.post-line{
+    width: 30px;
+    height: 2px;
+    background: #000;
+}
+
+
+/*-------------------post-details----------------------*/
+
+.post-details-section{
+    border-radius: 16px;
+    background: #FFF;
+    width: 1013px;
+    margin: 73px auto;
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-title{
+    color: #000;
+    font-family: Merriweather, system-ui;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    width: 100%;
+}
+
+.post-details-ul{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.post-details-p{
+    color: #000;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+}
+
+.post-details-span{
+    color: #1C2B62;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.comments-section{
+    width: 1013px;
+    margin: -28px auto 28px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.comment-div{
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 8px 23px 0px rgba(132, 159, 255, 1);
+    padding: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 230px;
+}
+
+.comment-p{
+    color: #000;
+    font-family: Merriweather, system-ui;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    width: 100%;
+}
